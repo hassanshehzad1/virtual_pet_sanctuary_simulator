@@ -1,0 +1,2 @@
+2,PitBull,3,lion,80,100,60,300.0,false
+2,Kuta,3,lion,80,100,50,200.0,true

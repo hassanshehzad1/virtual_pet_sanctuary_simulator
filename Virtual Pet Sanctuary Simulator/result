@@ -1,0 +1,754 @@
+
+D:\OOP_PROJECT>java Main
+
+<------ Welcome to the 'Virtual Pet Sanctuary Simulator' ------>
+1. Login
+2. Register
+3. Guest (View or Buy Pets)
+4. Run Daily Updates (Trigger Random Events)
+0. Exit
+Choice: 2
+
+? Register New User
+ Enter User Name: Hassan
+ Enter Email: Hassan@gmail.com
+ Enter Password: 12345678
+ Enter Age: 20
+ Enter Role (C for CareTaker, M for Manager): m
+ Users saved successfully.
+ Registration successful for M: Hassan
+
+<------ Welcome to the 'Virtual Pet Sanctuary Simulator' ------>
+1. Login
+2. Register
+3. Guest (View or Buy Pets)
+4. Run Daily Updates (Trigger Random Events)
+0. Exit
+Choice: 1
+
+ Login User
+ Enter Email: Hassan@gmail.com
+ Enter Password: 12345678
+ Enter Role (C for CareTaker, M for Manager): m
+ Login Successful! Welcome, Hassan
+
+=== Manager Menu ===
+1: Add Funds
+2: Purchase Upgrades
+3: Generate Report
+4: Add Pet to Sanctuary
+5: Remove Pet from Sanctuary
+6: Manage Events
+7: Assign pet to careTaker
+0: Logout
+Enter choice: 1
+Enter amount to add: 400
+Funds added: $400.0 | Total Funds: $5400.0
+Funds saved successfully.
+
+=== Manager Menu ===
+1: Add Funds
+2: Purchase Upgrades
+3: Generate Report
+4: Add Pet to Sanctuary
+5: Remove Pet from Sanctuary
+6: Manage Events
+7: Assign pet to careTaker
+0: Logout
+Enter choice: 3
+
+=== Sanctuary Report ===
+Total Funds: $5400.0
+Total Pets: 1
+Pets Available for Sale: 1
+
+=== Manager Menu ===
+1: Add Funds
+2: Purchase Upgrades
+3: Generate Report
+4: Add Pet to Sanctuary
+5: Remove Pet from Sanctuary
+6: Manage Events
+7: Assign pet to careTaker
+0: Logout
+Enter choice: 4
+
+Enter Pet Details to Add
+Pet Name: PitBull
+Pet Age: 3
+Pet Type (Dog, Rabbit, Horse, Lion): Lion
+Hunger Level (0-100): 90
+Health Level (0-100): 80
+Mood Level (0-100): 70
+Price: 300
+Is for Sale? (true/false): false
+ Pet PitBull added.
+ Pets saved successfully.
+
+=== Manager Menu ===
+1: Add Funds
+2: Purchase Upgrades
+3: Generate Report
+4: Add Pet to Sanctuary
+5: Remove Pet from Sanctuary
+6: Manage Events
+7: Assign pet to careTaker
+0: Logout
+Enter choice: 6
+
+=== Event Management ===
+1: View All Events
+2: View Unresolved Events
+3: Resolve an Event
+0: Back to Main Menu
+Enter choice: 1
+No events to display.
+
+=== Event Management ===
+1: View All Events
+2: View Unresolved Events
+3: Resolve an Event
+0: Back to Main Menu
+Enter choice: 2
+Unresolved Events..
+
+=== Event Management ===
+1: View All Events
+2: View Unresolved Events
+3: Resolve an Event
+0: Back to Main Menu
+Enter choice: 3
+Enter ID of Event to resolve: 1
+Invalid event ID or already resolved.
+
+=== Event Management ===
+1: View All Events
+2: View Unresolved Events
+3: Resolve an Event
+0: Back to Main Menu
+Enter choice: 0
+Returning to main menu...
+
+=== Manager Menu ===
+1: Add Funds
+2: Purchase Upgrades
+3: Generate Report
+4: Add Pet to Sanctuary
+5: Remove Pet from Sanctuary
+6: Manage Events
+7: Assign pet to careTaker
+0: Logout
+Enter choice: 7
+
+=== Assign Pet to a CareTaker ===
+ No available CareTakers.
+
+=== Manager Menu ===
+1: Add Funds
+2: Purchase Upgrades
+3: Generate Report
+4: Add Pet to Sanctuary
+5: Remove Pet from Sanctuary
+6: Manage Events
+7: Assign pet to careTaker
+0: Logout
+Enter choice: 2
+Enter upgrade to purchase (Playground/Clinic/Feeding Station): Feeding Station
+Upgrade 'Feeding Station' purchased successfully. Remaining funds: $4400.0
+Funds saved successfully.
+
+=== Manager Menu ===
+1: Add Funds
+2: Purchase Upgrades
+3: Generate Report
+4: Add Pet to Sanctuary
+5: Remove Pet from Sanctuary
+6: Manage Events
+7: Assign pet to careTaker
+0: Logout
+Enter choice: 0
+Logging out...
+
+<------ Welcome to the 'Virtual Pet Sanctuary Simulator' ------>
+1. Login
+2. Register
+3. Guest (View or Buy Pets)
+4. Run Daily Updates (Trigger Random Events)
+0. Exit
+Choice: 2
+
+? Register New User
+ Enter User Name: ahmed
+ Enter Email: ahmed@gmail.com
+ Enter Password: 12345678
+ Enter Age: 40
+ Enter Role (C for CareTaker, M for Manager): m
+A Manager already exists! Cannot register another.
+
+<------ Welcome to the 'Virtual Pet Sanctuary Simulator' ------>
+1. Login
+2. Register
+3. Guest (View or Buy Pets)
+4. Run Daily Updates (Trigger Random Events)
+0. Exit
+Choice: 2
+
+? Register New User
+ Enter User Name: Ahmed
+ Enter Email: ahmed@gmail.com
+ Enter Password: 12345678
+ Enter Age: 30
+ Enter Role (C for CareTaker, M for Manager): c
+ Users saved successfully.
+ Registration successful for C: Ahmed
+
+<------ Welcome to the 'Virtual Pet Sanctuary Simulator' ------>
+1. Login
+2. Register
+3. Guest (View or Buy Pets)
+4. Run Daily Updates (Trigger Random Events)
+0. Exit
+Choice: 1
+
+ Login User
+ Enter Email: ahmed@gmail.com
+ Enter Password: 12345678
+ Enter Role (C for CareTaker, M for Manager): c
+ Login Successful! Welcome, Ahmed
+
+=== CareTaker Menu ===
+1. Feed a Pet
+2. Play with a Pet
+3. Heal a Pet
+4. Display All Pets
+5. Manage Events
+6. View Assigned Pets
+0. Logout
+Enter choice: 1
+
+===  All Pets in Sanctuary ===
+1. (ID: 1 Name: German shefferd, Type: dog, isForSale: true, Age: 5, Price: 20.0, Health: 100, Mood: 50, Hunger: 60)
+2. (ID: 2 Name: PitBull, Type: lion, isForSale: false, Age: 3, Price: 300.0, Health: 100, Mood: 50, Hunger: 80)
+? Enter Pet ID to Select: 4
+ Invalid selection.
+
+=== CareTaker Menu ===
+1. Feed a Pet
+2. Play with a Pet
+3. Heal a Pet
+4. Display All Pets
+5. Manage Events
+6. View Assigned Pets
+0. Logout
+Enter choice: 2
+
+===  All Pets in Sanctuary ===
+1. (ID: 1 Name: German shefferd, Type: dog, isForSale: true, Age: 5, Price: 20.0, Health: 100, Mood: 50, Hunger: 60)
+2. (ID: 2 Name: PitBull, Type: lion, isForSale: false, Age: 3, Price: 300.0, Health: 100, Mood: 50, Hunger: 80)
+? Enter Pet ID to Select: 2
+Played with PitBull. New Mood Level: 60
+ Pets saved successfully.
+
+=== CareTaker Menu ===
+1. Feed a Pet
+2. Play with a Pet
+3. Heal a Pet
+4. Display All Pets
+5. Manage Events
+6. View Assigned Pets
+0. Logout
+Enter choice: 5
+
+=== Event Management ===
+1. View All Events
+2. View Unresolved Events
+3. Resolve an Event
+0. Back to Main Menu
+Enter choice: 1
+No events to display.
+
+=== Event Management ===
+1. View All Events
+2. View Unresolved Events
+3. Resolve an Event
+0. Back to Main Menu
+Enter choice: 2
+Unresolved Events..
+
+=== Event Management ===
+1. View All Events
+2. View Unresolved Events
+3. Resolve an Event
+0. Back to Main Menu
+Enter choice: 3
+No assigned pets for this CareTaker.
+
+=== Event Management ===
+1. View All Events
+2. View Unresolved Events
+3. Resolve an Event
+0. Back to Main Menu
+Enter choice: 0
+Returning to main menu...
+
+=== CareTaker Menu ===
+1. Feed a Pet
+2. Play with a Pet
+3. Heal a Pet
+4. Display All Pets
+5. Manage Events
+6. View Assigned Pets
+0. Logout
+Enter choice: 4
+
+===  All Pets in Sanctuary ===
+1. (ID: 1 Name: German shefferd, Type: dog, isForSale: true, Age: 5, Price: 20.0, Health: 100, Mood: 50, Hunger: 60)
+2. (ID: 2 Name: PitBull, Type: lion, isForSale: false, Age: 3, Price: 300.0, Health: 100, Mood: 60, Hunger: 80)
+
+=== CareTaker Menu ===
+1. Feed a Pet
+2. Play with a Pet
+3. Heal a Pet
+4. Display All Pets
+5. Manage Events
+6. View Assigned Pets
+0. Logout
+Enter choice: 0
+Logging out...
+
+<------ Welcome to the 'Virtual Pet Sanctuary Simulator' ------>
+1. Login
+2. Register
+3. Guest (View or Buy Pets)
+4. Run Daily Updates (Trigger Random Events)
+0. Exit
+Choice: 1
+
+ Login User
+ Enter Email: hassan@gmail.com
+ Enter Password: 12345678
+ Enter Role (C for CareTaker, M for Manager): m
+ Login Successful! Welcome, Hassan
+
+=== Manager Menu ===
+1: Add Funds
+2: Purchase Upgrades
+3: Generate Report
+4: Add Pet to Sanctuary
+5: Remove Pet from Sanctuary
+6: Manage Events
+7: Assign pet to careTaker
+0: Logout
+Enter choice: 7
+
+=== Assign Pet to a CareTaker ===
+Select a CareTaker:
+1. Ahmed
+Enter CareTaker number: 1
+
+===  All Pets in Sanctuary ===
+1. (ID: 1 Name: German shefferd, Type: dog, isForSale: true, Age: 5, Price: 20.0, Health: 100, Mood: 50, Hunger: 60)
+2. (ID: 2 Name: PitBull, Type: lion, isForSale: false, Age: 3, Price: 300.0, Health: 100, Mood: 60, Hunger: 80)
+Enter Pet Name to Assign: 1
+ No pet found with name: 1
+ Pet not found.
+
+=== Manager Menu ===
+1: Add Funds
+2: Purchase Upgrades
+3: Generate Report
+4: Add Pet to Sanctuary
+5: Remove Pet from Sanctuary
+6: Manage Events
+7: Assign pet to careTaker
+0: Logout
+Enter choice: 7
+
+=== Assign Pet to a CareTaker ===
+Select a CareTaker:
+1. Ahmed
+Enter CareTaker number: 1
+
+===  All Pets in Sanctuary ===
+1. (ID: 1 Name: German shefferd, Type: dog, isForSale: true, Age: 5, Price: 20.0, Health: 100, Mood: 50, Hunger: 60)
+2. (ID: 2 Name: PitBull, Type: lion, isForSale: false, Age: 3, Price: 300.0, Health: 100, Mood: 60, Hunger: 80)
+Enter Pet Name to Assign: German sheffered
+ No pet found with name: German sheffered
+ Pet not found.
+
+=== Manager Menu ===
+1: Add Funds
+2: Purchase Upgrades
+3: Generate Report
+4: Add Pet to Sanctuary
+5: Remove Pet from Sanctuary
+6: Manage Events
+7: Assign pet to careTaker
+0: Logout
+Enter choice: 7
+
+=== Assign Pet to a CareTaker ===
+Select a CareTaker:
+1. Ahmed
+Enter CareTaker number: 1
+
+===  All Pets in Sanctuary ===
+1. (ID: 1 Name: German shefferd, Type: dog, isForSale: true, Age: 5, Price: 20.0, Health: 100, Mood: 50, Hunger: 60)
+2. (ID: 2 Name: PitBull, Type: lion, isForSale: false, Age: 3, Price: 300.0, Health: 100, Mood: 60, Hunger: 80)
+Enter Pet Name to Assign: Germen shefferd
+ No pet found with name: Germen shefferd
+ Pet not found.
+
+=== Manager Menu ===
+1: Add Funds
+2: Purchase Upgrades
+3: Generate Report
+4: Add Pet to Sanctuary
+5: Remove Pet from Sanctuary
+6: Manage Events
+7: Assign pet to careTaker
+0: Logout
+Enter choice: 7
+
+=== Assign Pet to a CareTaker ===
+Select a CareTaker:
+1. Ahmed
+Enter CareTaker number: 1
+
+===  All Pets in Sanctuary ===
+1. (ID: 1 Name: German shefferd, Type: dog, isForSale: true, Age: 5, Price: 20.0, Health: 100, Mood: 50, Hunger: 60)
+2. (ID: 2 Name: PitBull, Type: lion, isForSale: false, Age: 3, Price: 300.0, Health: 100, Mood: 60, Hunger: 80)
+Enter Pet Name to Assign: German shefferd
+ Pet German shefferd has been assigned to Ahmed
+
+=== Manager Menu ===
+1: Add Funds
+2: Purchase Upgrades
+3: Generate Report
+4: Add Pet to Sanctuary
+5: Remove Pet from Sanctuary
+6: Manage Events
+7: Assign pet to careTaker
+0: Logout
+Enter choice: 6
+
+=== Event Management ===
+1: View All Events
+2: View Unresolved Events
+3: Resolve an Event
+0: Back to Main Menu
+Enter choice:
+3
+Enter ID of Event to resolve: 1
+Invalid event ID or already resolved.
+
+=== Event Management ===
+1: View All Events
+2: View Unresolved Events
+3: Resolve an Event
+0: Back to Main Menu
+Enter choice: 0
+Returning to main menu...
+
+=== Manager Menu ===
+1: Add Funds
+2: Purchase Upgrades
+3: Generate Report
+4: Add Pet to Sanctuary
+5: Remove Pet from Sanctuary
+6: Manage Events
+7: Assign pet to careTaker
+0: Logout
+Enter choice: 1
+Enter amount to add: 400
+Funds added: $400.0 | Total Funds: $4800.0
+Funds saved successfully.
+
+=== Manager Menu ===
+1: Add Funds
+2: Purchase Upgrades
+3: Generate Report
+4: Add Pet to Sanctuary
+5: Remove Pet from Sanctuary
+6: Manage Events
+7: Assign pet to careTaker
+0: Logout
+Enter choice: 3
+
+=== Sanctuary Report ===
+Total Funds: $4800.0
+Total Pets: 2
+Pets Available for Sale: 1
+
+=== Manager Menu ===
+1: Add Funds
+2: Purchase Upgrades
+3: Generate Report
+4: Add Pet to Sanctuary
+5: Remove Pet from Sanctuary
+6: Manage Events
+7: Assign pet to careTaker
+0: Logout
+Enter choice: 0
+Logging out...
+
+<------ Welcome to the 'Virtual Pet Sanctuary Simulator' ------>
+1. Login
+2. Register
+3. Guest (View or Buy Pets)
+4. Run Daily Updates (Trigger Random Events)
+0. Exit
+Choice: 4
+
+Running Daily Updates...
+Random event Triggered: Event Type: Escape
+Date: 2025-02-09T12:30:36.881464600
+Description:
+Affected Pet: German shefferd
+Resolved: No
+Daily updates completed.
+
+<------ Welcome to the 'Virtual Pet Sanctuary Simulator' ------>
+1. Login
+2. Register
+3. Guest (View or Buy Pets)
+4. Run Daily Updates (Trigger Random Events)
+0. Exit
+Choice: 1
+
+ Login User
+ Enter Email: ahmed@gmail.com
+ Enter Password: 12345678
+ Enter Role (C for CareTaker, M for Manager): c
+ Login Successful! Welcome, Ahmed
+
+=== CareTaker Menu ===
+1. Feed a Pet
+2. Play with a Pet
+3. Heal a Pet
+4. Display All Pets
+5. Manage Events
+6. View Assigned Pets
+0. Logout
+Enter choice: 6
+
+=== ? Assigned Pets ===
+- German shefferd
+
+=== CareTaker Menu ===
+1. Feed a Pet
+2. Play with a Pet
+3. Heal a Pet
+4. Display All Pets
+5. Manage Events
+6. View Assigned Pets
+0. Logout
+Enter choice: 5
+
+=== Event Management ===
+1. View All Events
+2. View Unresolved Events
+3. Resolve an Event
+0. Back to Main Menu
+Enter choice: 1
+Displaying all events:
+- Event Type: Escape
+Date: 2025-02-09T12:30:36.881464600
+Description:
+Affected Pet: German shefferd
+Resolved: No
+
+=== Event Management ===
+1. View All Events
+2. View Unresolved Events
+3. Resolve an Event
+0. Back to Main Menu
+Enter choice: 2
+Unresolved Events..
+Event Type: Escape
+Date: 2025-02-09T12:30:36.881464600
+Description:
+Affected Pet: German shefferd
+Resolved: No
+
+=== Event Management ===
+1. View All Events
+2. View Unresolved Events
+3. Resolve an Event
+0. Back to Main Menu
+Enter choice: 3
+
+=== Select a Pet to Resolve Events ===
+1. German shefferd
+Enter Pet Number: 1
+Event Type: Escape
+Date: 2025-02-09T12:30:36.881464600
+Description:
+Affected Pet: German shefferd
+Resolved: No
+Event 'Escape' has been resolved.
+
+=== Event Management ===
+1. View All Events
+2. View Unresolved Events
+3. Resolve an Event
+0. Back to Main Menu
+Enter choice: 0
+Returning to main menu...
+
+=== CareTaker Menu ===
+1. Feed a Pet
+2. Play with a Pet
+3. Heal a Pet
+4. Display All Pets
+5. Manage Events
+6. View Assigned Pets
+0. Logout
+Enter choice: 0
+Logging out...
+
+<------ Welcome to the 'Virtual Pet Sanctuary Simulator' ------>
+1. Login
+2. Register
+3. Guest (View or Buy Pets)
+4. Run Daily Updates (Trigger Random Events)
+0. Exit
+Choice: 3
+Guest, Enter your name:
+user
+
+Welcome, user What would you like do?
+
+===Guest Menu===
+1. View pets for sale
+2. Buy a pet
+0. Back to main menu
+Enter choice: 1
+
+=== Available pets for sale===
+(ID: 1 Name: German shefferd, Type: dog, isForSale: true, Age: 5, Price: 20.0, Health: 100, Mood: 50, Hunger: 60)
+
+===Guest Menu===
+1. View pets for sale
+2. Buy a pet
+0. Back to main menu
+Enter choice: 2
+Enter pet name to buy: Germen shefferd
+ No pet found with name: Germen shefferd
+Sorry, this pet is not available for sale....
+
+===Guest Menu===
+1. View pets for sale
+2. Buy a pet
+0. Back to main menu
+Enter choice: 1
+
+=== Available pets for sale===
+(ID: 1 Name: German shefferd, Type: dog, isForSale: true, Age: 5, Price: 20.0, Health: 100, Mood: 50, Hunger: 60)
+
+===Guest Menu===
+1. View pets for sale
+2. Buy a pet
+0. Back to main menu
+Enter choice: 2
+Enter pet name to buy: German Shefferd
+Congratulations, you have boughtGerman shefferd.
+ Pet German shefferd removed.
+ Pets saved successfully.
+
+===Guest Menu===
+1. View pets for sale
+2. Buy a pet
+0. Back to main menu
+Enter choice: 0
+Returning to main menu....
+
+<------ Welcome to the 'Virtual Pet Sanctuary Simulator' ------>
+1. Login
+2. Register
+3. Guest (View or Buy Pets)
+4. Run Daily Updates (Trigger Random Events)
+0. Exit
+Choice: 4
+
+Running Daily Updates...
+Random event Triggered: Event Type: Natural Disasters
+Date: 2025-02-09T12:33:06.896462
+Description:
+Affected Pet: PitBull
+Resolved: No
+Daily updates completed.
+
+<------ Welcome to the 'Virtual Pet Sanctuary Simulator' ------>
+1. Login
+2. Register
+3. Guest (View or Buy Pets)
+4. Run Daily Updates (Trigger Random Events)
+0. Exit
+Choice: 1
+
+ Login User
+ Enter Email: Hassan@gmail.com
+ Enter Password: 12345678
+ Enter Role (C for CareTaker, M for Manager): m
+ Login Successful! Welcome, Hassan
+
+=== Manager Menu ===
+1: Add Funds
+2: Purchase Upgrades
+3: Generate Report
+4: Add Pet to Sanctuary
+5: Remove Pet from Sanctuary
+6: Manage Events
+7: Assign pet to careTaker
+0: Logout
+Enter choice: 3
+
+=== Sanctuary Report ===
+Total Funds: $4800.0
+Total Pets: 1
+Pets Available for Sale: 0
+
+=== Manager Menu ===
+1: Add Funds
+2: Purchase Upgrades
+3: Generate Report
+4: Add Pet to Sanctuary
+5: Remove Pet from Sanctuary
+6: Manage Events
+7: Assign pet to careTaker
+0: Logout
+Enter choice: 7
+
+=== Assign Pet to a CareTaker ===
+Select a CareTaker:
+1. Ahmed
+Enter CareTaker number: 1
+
+===  All Pets in Sanctuary ===
+1. (ID: 2 Name: PitBull, Type: lion, isForSale: false, Age: 3, Price: 300.0, Health: 100, Mood: 60, Hunger: 80)
+Enter Pet Name to Assign: PitBull
+ Pet PitBull has been assigned to Ahmed
+
+=== Manager Menu ===
+1: Add Funds
+2: Purchase Upgrades
+3: Generate Report
+4: Add Pet to Sanctuary
+5: Remove Pet from Sanctuary
+6: Manage Events
+7: Assign pet to careTaker
+0: Logout
+Enter choice: 0
+Logging out...
+
+<------ Welcome to the 'Virtual Pet Sanctuary Simulator' ------>
+1. Login
+2. Register
+3. Guest (View or Buy Pets)
+4. Run Daily Updates (Trigger Random Events)
+0. Exit
+Choice: 0
+Saving funds and exiting...
+
+D:\OOP_PROJECT>
